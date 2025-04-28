@@ -309,7 +309,7 @@ latent action is [[6 4 1 4]]
 ```
 !!!!!Finished!!!!!
 
-Additionally, you may find situations where jax cannot call the GPU. For instance, I have to install cudnn91 to be able to call it. However, if cudnn91 is installed, it will conflict with the tux version (tux requires jax=0.4.23 & cudnn=89). In such cases, it can be installed separately
+Additionally, you may find situations where jax cannot call the GPU. For instance, I have to install cudnn91 to be able to call it. However, if cudnn91 is installed, it will conflict with the tux version (tux requires jax=0.4.23 & cudnn=89). In such cases, it can be installed separately[[ref]](https://blog.csdn.net/qq_52476897/article/details/134556167)
 ```
 pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu124
 conda install cudnn==8.9.2.26
